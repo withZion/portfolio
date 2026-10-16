@@ -1,0 +1,20 @@
+# Allowlist: only the site source goes in the repo.
+# Contact details (Contacts.env), working notes and build output stay local.
+/*
+!/.gitignore
+!/README.md
+!/v3.html
+!/v3.css
+!/v3.js
+!/styles.css
+!/script.js
+!/favicon.svg
+!/assets/
+!/scripts/
+!/portfolio.wrangler.jsonc
+
+# Belt and braces
+*.env
+.env*
+.wrangler/
+publish/

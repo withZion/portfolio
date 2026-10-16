@@ -1,0 +1,13 @@
+{
+  // Portfolio (v3): static files built into ./publish by scripts/build-portfolio.py.
+  // Build:   python scripts/build-portfolio.py
+  // Deploy:  npx wrangler deploy -c portfolio.wrangler.jsonc
+  "$schema": "https://unpkg.com/wrangler@4.146.0/config-schema.json",
+  "name": "portfolio",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "publish",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
