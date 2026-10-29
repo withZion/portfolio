@@ -201,6 +201,22 @@
         <p class="risk-note reveal">Trading involves risk. Alerts and signals from these products are informational only, not financial advice, and past performance doesn't guarantee future results.</p>
         <div class="project-grid">
 
+          <article class="card featured reveal" data-project="zchart">
+            <div class="card-head">
+              <h3 class="card-title"><button type="button" class="card-open" aria-haspopup="dialog">ZChart</button></h3>
+              <span class="card-note">in testing, by invite</span>
+            </div>
+            <p class="card-blurb"><span class="accent" aria-hidden="true">↳ </span>A Windows charting app for traders who review their trades, with custom timeframes and bar replay on every plan.</p>
+            <dl class="card-rows">
+              <div><dt>Role</dt><dd>Product, design and full build: the candle engine, the price data pipeline, the drawing tools and a Windows installer that updates itself.</dd></div>
+              <div><dt>Outcome</dt><dd>Traders can open any timeframe and replay any day without paying for a higher tier. Candles start and end where they do on the platform traders came from, so their levels sit where they expect.</dd></div>
+            </dl>
+            <div class="card-foot">
+              <span class="card-tags">typescript · electron · market data</span>
+              <span class="card-actions"><a class="card-link" href="https://zchart.pages.dev" target="_blank" rel="noopener noreferrer"><span class="more-label">live site </span><span class="arrow">↗</span><span class="sr-only"> ZChart website, opens in a new tab</span></a><span class="card-more"><span class="more-label">details </span><span class="arrow">↗</span></span></span>
+            </div>
+          </article>
+
           <article class="card reveal" data-project="pips">
             <div class="card-head">
               <h3 class="card-title"><button type="button" class="card-open" aria-haspopup="dialog">Pips Pulse</button></h3>
@@ -592,6 +608,22 @@
   </dialog>
 
   <!-- Long-form project stories (Role and Outcome rows are copied from each card) -->
+  <template id="tpl-zchart">
+    <p class="dialog-headline">A desktop charting app with custom timeframes and bar replay on every plan, where other platforms charge for both.</p>
+    <div class="dialog-story">
+      <p>Most charting platforms keep custom timeframes and bar replay for paying tiers. Traders need both most when they study a market or look back at a trade they took. ZChart gives traders both on every plan.</p>
+      <p>Type any timeframe, such as 12 hours, 2 days or 3 weeks, and it opens. I wrote the candle engine to match the boundaries traders already know: the forex day opens at 5pm New York, and multi-week candles count from the first full week of the year. Tests check each of those rules. Replay hides the future and steps forward one bar at a time, and the long and short tools play each trade out on real candles.</p>
+      <p>Alerts watch live prices whether their chart is open or not. The drawing tools and shortcuts match the ones traders already use, and one shortcut turns a chart into a phone-sized image for the group chat. ZChart keeps price history on the trader's own PC and updates itself in the background.</p>
+    </div>
+    <dl class="dialog-rows">
+      <div><dt>Skills</dt><dd>TypeScript, Electron, Lightweight Charts, WebSockets, market data, desktop app development, UI design, auto-updates</dd></div>
+    </dl>
+    <div class="dialog-actions">
+      <a class="btn btn-primary arrow-nudge" href="https://zchart.pages.dev" target="_blank" rel="noopener noreferrer">Visit the Website <span class="arrow">↗</span></a>
+      <a class="btn btn-outline" href="mailto:zion.ojuwonlo@gmail.com?subject=ZChart">Ask me about ZChart</a>
+    </div>
+  </template>
+
   <template id="tpl-pips">
     <p class="dialog-headline">A market scanner that checks five asset classes every hour and alerts traders the moment a setup completes.</p>
     <div class="dialog-story">
