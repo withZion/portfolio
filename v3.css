@@ -404,6 +404,9 @@ html:not(.dark) .hero::before {
   text-align: right; text-wrap: balance;
 }
 
+/* EvBella's two-line note sits flush right */
+.card[data-project="evbella"] .card-note { text-align: right; }
+
 /* Footer risk note */
 .footer-risk {
   margin: 2rem auto 0; max-width: 40rem; text-align: center;
