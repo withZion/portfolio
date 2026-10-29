@@ -1,6 +1,6 @@
 # Portfolio
 
-Source for [portfolio.zion-ojuwonlo.workers.dev](https://portfolio.zion-ojuwonlo.workers.dev), the portfolio of Zion O'Juwonlo, a full stack developer in Lagos.
+Source for [portfolio.zion-ojuwonlo.workers.dev](https://portfolio.zion-ojuwonlo.workers.dev), the portfolio of Zion O'Juwonlo, a developer in Lagos.
 
 It's a static site: plain HTML, CSS and JavaScript, no framework and no build step beyond copying files. It's hosted on Cloudflare Workers static assets.
 

@@ -411,7 +411,7 @@ html:not(.dark) .hero::before {
   color: var(--faint);
 }
 
-/* "Fullstack Developer" scrawl above the name, same component as "that's me" */
+/* "Developer in Lagos" scrawl above the name, same component as "that's me" */
 .name-wrap { display: inline-flex; flex-direction: column; margin-top: 1.25rem; }
 .name-wrap .name-note { align-self: flex-end; margin: 0 .5rem -1rem 0; }
 .name-wrap .hero-name { margin-top: 0; }

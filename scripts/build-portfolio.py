@@ -20,7 +20,7 @@ FILES = [
 ]
 OPTIONAL = ["assets/og-portfolio.png"]   # social preview, made separately
 
-TITLE = "Zion O'Juwonlo | Full Stack Developer"
+TITLE = "Zion O'Juwonlo | Developer in Lagos"
 
 
 def build() -> None:
